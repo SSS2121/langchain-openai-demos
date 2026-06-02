@@ -1,6 +1,6 @@
 from langchain_community_tools import wikipediaQueryRun, DuckDuckGoSearchRun
 from langchain_community.utilities import WikipediaAPIWrapper
-from langchain.tools import Tolls 
+from langchain.tools import Tool
 from datetime import datetime
 # Create a function to save the output of the agent in a txt file. This can be useful for later use
 # or for keeping a record of the research done by the agent.
